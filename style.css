@@ -6,6 +6,8 @@ body {
 
 .container-1 {
     background-color: #1F2937;
+    height: 375px;
+    width: auto;
 }
 
 .upper-1 {
@@ -36,7 +38,7 @@ body {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .low-left-1 {
@@ -46,7 +48,7 @@ body {
 
 .lower-1, img {
     margin-right: 75px;
-    height: 300px;
+    height: 250px;
     width: auto;
 }
 
@@ -74,6 +76,11 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     margin: 0px;
+}
+
+.container-2 {
+    height: 300px;
+    width: auto;
 }
 
 .title-2 {
@@ -106,6 +113,32 @@ body {
 .img-2 {
     height: 100px;
     width: 200px;
+}
+
+.container-3 {
+    background-color: #E5E7EB;
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-cont {
+    width: 600px;
+    height: 250px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.god-quote {
+    display: flex;
+    align-self: flex-end;
+    padding-right: 600px;
+    font-weight: 700;
 }
 
 ul, a {
