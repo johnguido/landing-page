@@ -149,12 +149,41 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 250px;
+    width: auto;   
 }
 
 .cont-layer {
-    background-color: blue;
-    height: 200px;
-    width: 600px;
+    background-color: #3882F6;
+    height: 150px;
+    width: 800px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.layer1 {
+    color: white;
+}
+
+.layer1-1 {
+    font-size: 22px;
+}
+
+.layer1-2 {
+    color: blue;
+    margin: 0;
+}
+
+.container-5 {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 ul, a {
